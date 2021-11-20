@@ -1,10 +1,10 @@
-#School Disctrict Analysis
+# School Disctrict Analysis
 
-##Overview - School District Analysis
+## Overview - School District Analysis
 
 The purpose of this analysis is to help Maria and the school board analyze recent math and reading grades at the 15 schools in the district.  After analyzing the initial results it appeared to the board that there is possible academic dishonesty at Thomas High School specifically relating to the grades reported from the 9th grade students.  Therefore Maria asked for help to remove the 9th grade results from the intial analysis and re-calculate the school and district summaries.  
 
-##Results
+## Results
 
 In order to complete the analysis without the scores from the 9th grade at Thomas High School the scores first had to be replaced with NaN to exclude them from any calculations.  
 
@@ -191,6 +191,6 @@ Top 5 schools with Thomas High School 9th grade excluded:
 | Wilson High School  | Charter       |             2283 | $1,319,574.00         | $578.00              |              83.2742 |                 83.9895 |          93.8677 |             96.5396 |             90.5826 | <$584                           | Large (2000-5000)  |
 | Pena High School    | Charter       |              962 | $585,858.00           | $609.00              |              83.8399 |                 84.0447 |          94.5946 |             95.9459 |             90.5405 | $585-629                        | Small (<1000)      |
 
-##Summary
+## Summary
 
 After re-doing the original analysis but with the 9th grade scores from Thomas High School excluded we can see that at Thomas High School the average math score dropped, the average reading score increased, the % passing math decreased, the % passing reading decreased, and the overaall passing % decreased at Thomas High School.  However, the changes were very small and since the 9th grade students at Thomas High School only make up 1.18% of the total students in the district their exclusion from the data set has no statisitcally significant impact of the overal district results.  As well when looking at the 9th grade scores at Thomas High School they are not statistically significantly different from the other grades.  Thomas High School is ranked 2nd in the district so potentially there could be an issue with all the grades but their results are in line with what is expected from a charter school with a similar per capita spend.  Based on the above analysis there does not seem to be evidence of academic dishonesty within the 9th grade scores at Thomas High School.  
